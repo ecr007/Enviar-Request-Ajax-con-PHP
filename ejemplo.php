@@ -20,7 +20,7 @@ $jsonstr = '{"a": "GET_CHECKIN_DATA",
 
 
 		$data_len = strlen ($data_url);
-		$url      = 'https://www.tripadvisor.es/VacationRentalsAjax';
+		$url      = 'ejemplo.com';
 
 		@$result =  file_get_contents ($url, false, 
 		    stream_context_create (
